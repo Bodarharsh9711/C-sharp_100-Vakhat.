@@ -1,0 +1,16 @@
+3. take 2 variable value and sum it.
+
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int math_mark = 97;
+        int computer_mark = 99; 
+        int sum = math_mark + computer_mark;
+        Console.WriteLine ("the sum is: "+sum);
+        Console.WriteLine("Welcome to my world! ");
+    }
+}

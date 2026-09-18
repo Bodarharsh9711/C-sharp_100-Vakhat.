@@ -1,0 +1,13 @@
+2. create the variable and print it.
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int score = 95;
+        Console.WriteLine ("the score is: "+score);
+        Console.WriteLine("Welcome to my world! ");
+    }
+}

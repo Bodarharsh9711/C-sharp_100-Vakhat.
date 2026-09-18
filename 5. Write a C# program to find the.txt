@@ -1,0 +1,14 @@
+// 5. Write a C# program to find the square of a number.
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int num = 3;
+        float number = num*num;
+        Console.WriteLine(number);
+
+    }   
+}
