@@ -13,7 +13,7 @@ public class HelloWorld
         float difference = math_mark - computer_mark;
 
         Console.WriteLine("the sum is: "+sum);   // easy way.
-        Console.WriteLine($"The sum is: {sum}"); // professional way.
+        Console.WriteLine($"The sum is: {sum}"); // professional way(good coder practice).
         Console.WriteLine($"The quotient is: {quotient}");
         Console.WriteLine($"The product is: {product}");
         Console.WriteLine($"The difference is: {difference}");
