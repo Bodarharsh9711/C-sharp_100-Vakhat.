@@ -1,7 +1,6 @@
 // 4. take 2 variable and perform BODMAS.
 
 using System;
-
 public class HelloWorld
 {
     public static void Main(string[] args)
