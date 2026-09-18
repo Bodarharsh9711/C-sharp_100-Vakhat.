@@ -1,8 +1,6 @@
 3. take 2 variable value and sum it.
 
-
 using System;
-
 public class HelloWorld
 {
     public static void Main(string[] args)
