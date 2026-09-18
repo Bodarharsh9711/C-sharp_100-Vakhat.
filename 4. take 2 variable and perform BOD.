@@ -11,8 +11,9 @@ public class HelloWorld
         float quotient = math_mark / computer_mark;
         float product = math_mark * computer_mark;
         float difference = math_mark - computer_mark;
-        
-        Console.WriteLine($"The sum is: {sum}");
+
+        Console.WriteLine("the sum is: "+sum);   // easy way.
+        Console.WriteLine($"The sum is: {sum}"); // professional way.
         Console.WriteLine($"The quotient is: {quotient}");
         Console.WriteLine($"The product is: {product}");
         Console.WriteLine($"The difference is: {difference}");
