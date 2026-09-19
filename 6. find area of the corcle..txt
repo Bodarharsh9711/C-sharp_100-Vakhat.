@@ -1,0 +1,16 @@
+// 6. find area of the corcle.
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double r = 3;
+        double d = r*r;
+        Console.WriteLine(Math.PI*d);
+
+
+        
+    }   
+}

@@ -1,0 +1,19 @@
+ // 7. Write a C# program to check whether a number is even or odd.
+
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int no = 6;
+        if(no%2==0)
+            Console.WriteLine("the given number is EVEN");
+        else
+            Console.WriteLine("the given number is ODD");
+
+        Console.WriteLine("so, this is the hole process!");
+        
+    }   
+}
