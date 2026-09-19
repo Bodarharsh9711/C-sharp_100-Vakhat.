@@ -1,12 +1,10 @@
 // 10. Write a C# program to find the largest of two numbers.
 
 using System;
-
 public class HelloWorld
 {
     public static void Main(string[] args)
-    {
-       
+    { 
         int no1 = -1;
         int no2 = 2;
         int no3 = 5;
@@ -17,8 +15,6 @@ public class HelloWorld
         else
             Console.WriteLine("the no3 is bigger than no.1 and no.2");   
 
-        
         Console.WriteLine("so, this is the hole process!");
-        
     }   
 }
