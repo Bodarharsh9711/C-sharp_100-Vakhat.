@@ -1,6 +1,4 @@
  // 7. Write a C# program to check whether a number is even or odd.
-
-
 using System;
 
 public class HelloWorld
@@ -13,7 +11,6 @@ public class HelloWorld
         else
             Console.WriteLine("the given number is ODD");
 
-        Console.WriteLine("so, this is the hole process!");
-        
+        Console.WriteLine("so, this is the hole process!"); 
     }   
 }
