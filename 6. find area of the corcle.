@@ -8,9 +8,6 @@ public class HelloWorld
     {
         double r = 3;
         double d = r*r;
-        Console.WriteLine(Math.PI*d);
-
-
-        
+        Console.WriteLine(Math.PI*d);     
     }   
 }
