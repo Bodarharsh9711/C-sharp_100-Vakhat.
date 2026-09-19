@@ -1,13 +1,9 @@
 // 8. Write a C# program to check whether a number is positive, negative, or zero.
-
-
 using System;
-
 public class HelloWorld
 {
     public static void Main(string[] args)
     {
-       
         int no = -1;
         if(no>0)
             Console.WriteLine("the given number is POSITIVE");
@@ -15,9 +11,7 @@ public class HelloWorld
             Console.WriteLine("the given number is NEGATIVE");
         else
             Console.WriteLine("the given number is ZERO");   
-
-        
-        Console.WriteLine("so, this is the hole process!");
-        
+   
+        Console.WriteLine("so, this is the hole process!");        
     }   
 }
