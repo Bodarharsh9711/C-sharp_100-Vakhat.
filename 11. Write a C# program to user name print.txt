@@ -1,0 +1,17 @@
+// 11. Write a C# program to take the user's name as input and print it.
+
+using System;
+namespace first
+{
+	class first
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your name: ");
+			String name = Console.ReadLine();
+
+            Console.WriteLine("=================" );
+			Console.WriteLine("welcome: "+name);	
+		}	
+	}
+}
