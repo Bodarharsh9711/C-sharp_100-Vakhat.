@@ -1,0 +1,17 @@
+// 13. Write a C# program to take two numbers from the user and print their sum.
+
+using System;
+namespace first
+{
+	class first{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your frist value: ");
+			int a = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter your second value: ");
+			int b = Convert.ToInt32(Console.ReadLine());
+			int c = a+b;
+			Console.WriteLine("So, your sum is: "+c);
+		}
+	}
+} 
