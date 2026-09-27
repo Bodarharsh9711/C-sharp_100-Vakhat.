@@ -28,7 +28,6 @@ namespace first
                 Console.WriteLine("Jai shake vandho nai! jo ene select karta aavde to!");
             }
 				
-
 			Console.WriteLine("WOW");
 		}
 	}
