@@ -1,0 +1,46 @@
+// 19. find the largest out of 3 numbers.
+
+using System;
+namespace first
+{
+	class first{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your First number: ");
+			Double a  = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter your Second number: ");
+			Double b  = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter your third number: ");
+			Double c  = Convert.ToInt32(Console.ReadLine());
+
+
+
+
+			if(b<a && c<a)
+			{
+				Console.WriteLine("first is larger than other!");
+			}
+			else if(c<b && a<b)
+			{
+				Console.WriteLine("second is bigger tha other!");
+			}
+            
+           
+            else if(a==c)
+            {
+                Console.WriteLine("first and third number is same!");
+            }
+            else if(b==c)
+            {
+                Console.WriteLine("second and third number is same!");
+            }
+			else
+			{
+				Console.WriteLine("third number is bogger than first & seocnd");
+			}
+				
+
+			Console.WriteLine("WOW");
+		}
+	}
+} 
