@@ -13,9 +13,6 @@ namespace first
 			Console.WriteLine("Enter your third number: ");
 			Double c  = Convert.ToInt32(Console.ReadLine());
 
-
-
-
 			if(b<a && c<a)
 			{
 				Console.WriteLine("first is larger than other!");
@@ -23,9 +20,7 @@ namespace first
 			else if(c<b && a<b)
 			{
 				Console.WriteLine("second is bigger tha other!");
-			}
-            
-           
+			} 
             else if(a==c)
             {
                 Console.WriteLine("first and third number is same!");
@@ -39,7 +34,6 @@ namespace first
 				Console.WriteLine("third number is bogger than first & seocnd");
 			}
 				
-
 			Console.WriteLine("WOW");
 		}
 	}
