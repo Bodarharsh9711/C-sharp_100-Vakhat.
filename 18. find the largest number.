@@ -20,8 +20,6 @@ namespace first
 				Console.WriteLine("first is bigger tha second!");
 			}
 		
-				
-
 			Console.WriteLine("WOW");
 		}
 	}
