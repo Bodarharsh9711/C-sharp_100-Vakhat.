@@ -1,0 +1,28 @@
+// 18. find the largest number.
+
+using System;
+namespace first
+{
+	class first{
+		static void Main(string[] args)
+		{
+			 Console.WriteLine("Enter your First number: ");
+			 Double a  = Convert.ToInt32(Console.ReadLine());
+			 Console.WriteLine("Enter your Second number: ");
+			 Double b  = Convert.ToInt32(Console.ReadLine());
+
+			if(a<b)
+			{
+				Console.WriteLine("second is larger than first!");
+			}
+			else
+			{
+				Console.WriteLine("first is bigger tha second!");
+			}
+		
+				
+
+			Console.WriteLine("WOW");
+		}
+	}
+} 
