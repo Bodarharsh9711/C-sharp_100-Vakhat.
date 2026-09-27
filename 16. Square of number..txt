@@ -1,0 +1,35 @@
+// 17. is candidate Eligible for VOTE?
+
+using System;
+namespace first
+{
+	class first{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your value: ");
+			int age = Convert.ToInt32(Console.ReadLine());
+			 
+			if(age<=18){
+                Console.WriteLine("not Eligible for VOTE!");
+            }
+				
+			else if(age==18)
+            {
+                Console.WriteLine("lagbhag javu hoi to!");
+            }
+				
+			else if(age==0)
+            {
+                Console.WriteLine("NUMBER TO SACHA NAKH!");
+            }
+				
+			else
+            {
+                Console.WriteLine("Jai shake vandho nai! jo ene select karta aavde to!");
+            }
+				
+
+			Console.WriteLine("WOW");
+		}
+	}
+} 
