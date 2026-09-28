@@ -3,7 +3,8 @@
 using System;
 namespace first
 {
-	class first{
+	class first
+	{
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Enter your First number: ");
