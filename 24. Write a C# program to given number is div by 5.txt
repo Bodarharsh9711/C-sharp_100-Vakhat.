@@ -1,0 +1,25 @@
+// 24. Write a C# program to take a number from the user and check whether it is divisible by 5.
+
+
+using System;
+namespace first
+{
+	class frist
+	{	
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter the first number: ");
+			Double a = Convert.ToInt32(Console.ReadLine());			
+	
+			if(a%5==0)
+			{
+				Console.WriteLine("your number is divisible by 5!");
+			}
+			else
+			{			
+				Console.WriteLine("this is not divisible!");
+			}
+				
+		}
+	}
+}
