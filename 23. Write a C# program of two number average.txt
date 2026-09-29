@@ -1,0 +1,20 @@
+// 23. Write a C# program to take two numbers from the user and find their average.
+
+using System;
+namespace first
+{
+	class frist
+	{	
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter the first number: ");
+			Double a = Convert.ToInt32(Console.ReadLine());			
+	
+			Console.WriteLine("Enter your second number: ");
+			Double b  = Convert.ToInt32(Console.ReadLine());
+				
+			Double c = (a+b)/2;
+			Console.WriteLine("your numbers average is: "+c)	
+		}
+	}
+}
