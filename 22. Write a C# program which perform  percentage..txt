@@ -1,0 +1,35 @@
+// 23. Write a C# program to take marks from the user and calculate the percentage.
+
+using System;
+namespace first
+{
+	class first
+	{
+
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter the total marks: ");
+			Double total = Convert.ToInt32(Console.ReadLine());			
+	
+			Console.WriteLine("Enter your obtained number: ");
+			Double obtained  = Convert.ToInt32(Console.ReadLine());
+			
+			if(total<=0)
+			{
+				Console.WriteLine("you may be false to enter your marks");
+            }   
+			else if(obtained>total)
+			{
+				Console.WriteLine("what you enter? this is impossible!");
+            }    
+			else
+			{
+				Double percentage = (obtained*total)/100;
+				Console.WriteLine("your percentage is: "+percentage);
+			}			
+	 
+		}
+	
+
+	}
+}
