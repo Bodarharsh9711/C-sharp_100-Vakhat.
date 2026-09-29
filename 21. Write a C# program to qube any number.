@@ -5,7 +5,6 @@ namespace first
 {
 	class first
 	{
-
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Enter your number for cube");
@@ -14,7 +13,5 @@ namespace first
 			a = a*a*a;
 			Console.WriteLine("your cube is: "+a);
 		}
-	
-
 	}
 }
