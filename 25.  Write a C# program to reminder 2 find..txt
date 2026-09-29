@@ -1,0 +1,26 @@
+// Write a C# program to take a number from the user and find its remainder when divided by 2.
+
+using System;
+namespace first
+{
+	class first
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your number: ");
+			Double number = Convert.ToInt32(Console.ReadLine());
+			
+			if(number%2==0)
+			{
+				int remind = number%2;
+				Console.WriteLine(remind)
+				
+			}
+			else
+			{
+				Console.WriteLine("it is not possible!");
+			}
+			
+		}
+	}
+} 
