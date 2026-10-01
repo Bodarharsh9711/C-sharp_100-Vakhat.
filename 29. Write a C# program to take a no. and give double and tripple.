@@ -8,14 +8,10 @@ namespace first
         {
         	Console.Write("Enter your number: ");
 	    	double num = Convert.ToInt32(Console.ReadLine());
-		
 	        double doubleValue = num * 2;
             double trippleValue = num * 3;
-
             Console.WriteLine($"Double of {num} is: {doubleValue}");
             Console.WriteLine($"Tripple of {num} is: {trippleValue}");
-                
-            
         }
     }
 }
