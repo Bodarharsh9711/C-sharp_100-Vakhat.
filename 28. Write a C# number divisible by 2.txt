@@ -1,0 +1,23 @@
+//  28. Write a C# program to take a number from the user and check whether it is divisible by 3.
+using System;
+namespace first
+{
+    class first
+    {	
+        static void Main(string[] args)
+        {
+        	Console.Write("Enter your number: ");
+	    	double num = Convert.ToInt32(Console.ReadLine());
+		
+	        if(num%2==0)
+	        {
+			Console.WriteLine("Nice! this is divisible by 2!");
+		}
+		else
+		{
+			Console.WriteLine("WOW this is not divisible by 2!");
+		}
+            
+        }
+    }
+}
