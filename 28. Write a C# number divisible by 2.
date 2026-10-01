@@ -12,12 +12,11 @@ namespace first
 	        if(num%2==0)
 	        {
 			Console.WriteLine("Nice! this is divisible by 2!");
-		}
-		else
-		{
-			Console.WriteLine("WOW this is not divisible by 2!");
-		}
-            
+			}
+			else
+			{
+				Console.WriteLine("WOW this is not divisible by 2!");
+			}
         }
     }
 }
