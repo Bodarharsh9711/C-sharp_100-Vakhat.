@@ -1,5 +1,4 @@
-// 29. Write a C# program to take two numbers from the user and swap their values.
-
+// 30. Write a C# program to take two numbers from the user and swap their values.
 using System;
 namespace first
 {
@@ -9,14 +8,10 @@ namespace first
         {
         	Console.Write("Enter your frist number: ");
 	    	double num1 = Convert.ToInt32(Console.ReadLine());
-
-		Console.Write("Enter your second number: ");
+			Console.Write("Enter your second number: ");
 	    	double num2 = Convert.ToInt32(Console.ReadLine());
-
-		(num1, num2) = (num2, num1);
-
-             	Console.WriteLine($"after swapping number is: num1 = {num1}, num2 = {num2}");
-            	            
+			(num1, num2) = (num2, num1);
+        	Console.WriteLine($"after swapping number is: num1 = {num1}, num2 = {num2}");	            
         }
     }
 }
