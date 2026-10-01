@@ -1,9 +1,5 @@
 //  27. length and width using find area.
-
-
-
 using System;
-
 namespace first
 {
     class first
