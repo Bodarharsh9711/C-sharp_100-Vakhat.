@@ -1,0 +1,23 @@
+// 33. Write a C# program to perform addition, subtraction, multiplication, and division of two numbers entered by the user.
+
+
+using System;
+namespace first
+{
+	class first
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your first number: ");
+			double num1 = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter your second number: ");
+			double num2 = Convert.ToInt32(Console.ReadLine());
+			
+			Console.WriteLine($"\nAdd: {num1+num2}");
+			Console.WriteLine($"Sub: {num1-num2}");
+			Console.WriteLine($"Mul: {num1*num2}");
+			Console.WriteLine($"Div: {num1/num2}");
+
+		}
+	}
+}
