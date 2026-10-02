@@ -1,0 +1,25 @@
+// 34. Write a C# program to take three numbers (x, y, z) as input and calculate (x + y) * z and (x * y) + (y * z).
+
+using System;
+namespace first
+{
+	class first
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your first number: ");
+			double x = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter your second number: ");
+			double y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your second number: ");
+			double z = Convert.ToInt32(Console.ReadLine());
+
+            double a = (x + y) * z;
+            double b = (x * y) + (y * z);
+			
+			Console.WriteLine($"first is: {a}");
+            Console.WriteLine($"second is: {b}");
+
+		}
+	}
+}
