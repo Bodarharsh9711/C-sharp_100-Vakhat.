@@ -1,0 +1,49 @@
+// 37. find largest and smallest of 3 numbers.
+using System;
+namespace first
+{
+	class first{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your First number: ");
+			Double a  = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter your Second number: ");
+			Double b  = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter your third number: ");
+			Double c  = Convert.ToInt32(Console.ReadLine());
+
+			// 1. Check for the LARGEST number
+			if (a >= b && a >= c)
+			{
+			    Console.WriteLine("First is the largest!");
+			}
+			else if (b >= a && b >= c)
+			{
+			    Console.WriteLine("Second is the largest!");
+			}
+			else
+			{
+			    Console.WriteLine("Third is the largest!");
+			}
+			
+			// 2. Check for the SMALLEST number
+			if (a <= b && a <= c)
+			{
+			    Console.WriteLine("First is the smallest!");
+			}
+			else if (b <= a && b <= c)
+			{
+			    Console.WriteLine("Second is the smallest!");
+			}
+			else
+			{
+			    Console.WriteLine("Third is the smallest!");
+			}
+
+
+
+				
+			Console.WriteLine("WOW");
+		}
+	}
+} 
