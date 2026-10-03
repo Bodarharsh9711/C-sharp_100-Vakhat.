@@ -38,11 +38,7 @@ namespace first
 			else
 			{
 			    Console.WriteLine("Third is the smallest!");
-			}
-
-
-
-				
+			}	
 			Console.WriteLine("WOW");
 		}
 	}
