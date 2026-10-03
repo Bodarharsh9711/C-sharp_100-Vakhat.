@@ -1,7 +1,6 @@
 // 36. array multiplication.
 
 using System;
-
 class Program
 {
     static void Main()
@@ -18,7 +17,6 @@ class Program
         {
             resultArray[i] = firstArray[i] * secondArray[i];
         }
-
         // 4. Print the final answer
         Console.WriteLine("Result: " + string.Join(", ", resultArray));
     }
