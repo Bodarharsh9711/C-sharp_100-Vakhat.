@@ -1,12 +1,10 @@
 // 38. Write a C# program to rotate an array of length 3 in the left direction.
 
 using System;
-
 class Program
 {
     static void Main()
     {
-        
         int[] numbers = { 1, 2, 3 };
         int first = numbers[0];
         numbers[0] = numbers[1];  
