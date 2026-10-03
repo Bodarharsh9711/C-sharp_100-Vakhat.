@@ -19,7 +19,6 @@ namespace first
 			
 			Console.WriteLine($"first is: {a}");
             Console.WriteLine($"second is: {b}");
-
 		}
 	}
 }
