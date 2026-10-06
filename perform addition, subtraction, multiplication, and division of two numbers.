@@ -1,0 +1,33 @@
+using System;
+
+class Program
+{
+    public delegate void MathDelegate(int a, int b);
+    static void Add(int a, int b)
+    {
+        Console.WriteLine("Addition: " + (a + b));
+    }
+    static void Sub(int a, int b)
+    {
+        Console.WriteLine("Subtraction: " + (a - b));
+    }
+    static void Mul(int a, int b)
+    {
+        Console.WriteLine("Multiplication: " + (a * b));
+    }
+    static void Div(int a, int b)
+    {
+        Console.WriteLine("Division: " + (a / b));
+    }
+    static void Main()
+    {
+        MathDelegate myMath = Add;
+        myMath += Sub;
+        myMath += Mul;
+        myMath += Div;
+        
+        Console.WriteLine("Passing 10 and 2 to the delegate:\n");
+        myMath(10, 2);
+        Console.ReadLine();
+    }
+}
