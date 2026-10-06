@@ -1,5 +1,4 @@
 using System;
-
 class Program
 {
     public delegate void MathDelegate(int a, int b);
