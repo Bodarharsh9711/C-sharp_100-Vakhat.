@@ -13,7 +13,6 @@ namespace first
 				Console.WriteLine("the given number is EVEN!");
 			else
 				Console.WriteLine("the given number is ODD!");
-
 			Console.WriteLine("WOW");
 		}
 	}
